@@ -10,11 +10,7 @@
           class="navbar-item"
           href="/"
         >
-          <img
-            src="~assets/buefy.png"
-            alt="Buefy"
-            height="28"
-          >
+          buefy
         </a>
 
         <div class="navbar-burger">
@@ -37,6 +33,7 @@
           >
             <nuxt-link
               :to="item.to"
+              :prefetch="false"
               exact-active-class="is-active"
             >
               <b-icon :icon="item.icon" /> {{ item.title }}
