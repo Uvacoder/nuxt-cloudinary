@@ -13,6 +13,10 @@
       </b-carousel-item>
     </b-carousel> -->
 
+    <div>
+      asdqwe
+    </div>
+
     <div class="h-auto w-96">
       <CldImage
         public-id="slides/slide-01.jpg"
