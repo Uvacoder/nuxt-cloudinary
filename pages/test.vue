@@ -14,7 +14,7 @@
     </b-carousel> -->
 
     <div>
-      asdqwe 123
+      asdqwe MY TEST YARN BUIKD
     </div>
 
     <div class="h-auto w-96">
