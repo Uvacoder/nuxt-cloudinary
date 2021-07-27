@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-carousel>
+    <!-- <b-carousel>
       <b-carousel-item
         v-for="(carousel, i) in carousels"
         :key="i"
@@ -11,17 +11,19 @@
           </div>
         </section>
       </b-carousel-item>
-    </b-carousel>
+    </b-carousel> -->
 
-    <CldImage
-      public-id="slides/slide-01.jpg"
-      width="400"
-      crop="scale"
-      fetchFormat="auto"
-      quality="auto"
-      loading="lazy"
-      responsive
-    />
+    <div class="h-auto w-96">
+      <CldImage
+        public-id="slides/slide-01.jpg"
+        width="400"
+        crop="scale"
+        fetchFormat="auto"
+        quality="auto"
+        loading="lazy"
+        responsive
+      />
+    </div>
   </div>
 </template>
 
